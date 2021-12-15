@@ -1,0 +1,17 @@
+{
+  "name": "webpack-tool",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "youyunzhi",
+  "license": "MIT",
+  "scripts": {
+    "build": "node core/index.js"
+  },
+  "dependencies": {
+    "@babel/parser": "^7.16.4",
+    "@babel/traverse": "^7.16.3",
+    "babel": "^6.23.0",
+    "path": "^0.12.7",
+    "webpack": "^5.65.0"
+  }
+}
